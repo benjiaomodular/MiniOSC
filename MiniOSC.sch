@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title ""
+Title "MiniOSC"
 Date ""
-Rev ""
-Comp ""
+Rev "1.0"
+Comp "benjiaomodular"
 Comment1 ""
 Comment2 ""
 Comment3 ""

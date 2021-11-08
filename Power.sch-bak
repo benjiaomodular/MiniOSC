@@ -55,15 +55,15 @@ $EndComp
 $Comp
 L Connector:Conn_01x16_Male J?
 U 1 1 61FC4B8A
-P 5575 3575
+P 5575 3675
 AR Path="/61FC4B8A" Ref="J?"  Part="1" 
 AR Path="/61FA9972/61FC4B8A" Ref="J8"  Part="1" 
-F 0 "J8" H 5700 4500 50  0000 R CNN
-F 1 "IDC_BUS" H 5825 4400 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 5575 3575 50  0001 C CNN
-F 3 "~" H 5575 3575 50  0001 C CNN
-	1    5575 3575
-	-1   0    0    -1  
+F 0 "J8" H 5700 4600 50  0000 R CNN
+F 1 "IDC_BUS" H 5825 4500 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 5575 3675 50  0001 C CNN
+F 3 "~" H 5575 3675 50  0001 C CNN
+	1    5575 3675
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5375 3075 5375 3175
