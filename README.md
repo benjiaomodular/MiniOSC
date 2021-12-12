@@ -16,12 +16,23 @@ by Benjie Jiao
 - Mounting holes were too small for M3 screws, fixed by drilling them out.
 
 #### rev 1.1.
-- Issue with mounting holes was fixed.
+- Issue with mounting holes was fixed. 
 - Label sizes increased a bit.
 
 ### Materials
-All resistors are 1/4W.
 
+#### Resistors
+Resistors are 1/4W, 7.62mm pitch.
+
+#### Capacitors
+1uF and 100uF Capactiors are 5mm radial 2.5mm pitch. The rest of the capacitors are 5mm pitch box-types.
+
+#### Power Connectors
+There are two options provided for power connectors. You only have to install one:
+1. 6-pin JST Connector - This is what I use for all my personal synth systems and is easier to find where I am.
+2. 16-pin (2x8) IDC Connector - Standard Eurorack power connector
+
+#### Complete list of parts
 | Reference | Value | Type | Amount |
 | - | - | - | - |
 | C1 | 2.2nF | Capacitor | 1 |
