@@ -11,13 +11,13 @@ by Benjie Jiao
 ![DSC03823 resized](https://user-images.githubusercontent.com/5189714/144732334-2ea9b254-dfcb-4250-980c-ec5ecda9a863.jpg)
 
 ### Versions
-#### rev 1.0.
-- Initial release.
-- Mounting holes were too small for M3 screws, fixed by drilling them out.
-
 #### rev 1.1.
 - Issue with mounting holes was fixed. 
 - Label sizes increased a bit.
+
+#### rev 1.0.
+- Initial release.
+- Mounting holes were too small for M3 screws, fixed by drilling with an M3 bit.
 
 ### Materials
 
