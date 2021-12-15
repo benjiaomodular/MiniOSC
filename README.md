@@ -32,6 +32,9 @@ There are two options provided for power connectors. You only have to install on
 1. 6-pin JST Connector - This is what I use for all my personal synth systems and is easier to find where I am.
 2. 16-pin (2x8) IDC Connector - Standard Eurorack power connector
 
+### Potentiometers
+The pots I've tested are RV09-types.
+
 #### Complete list of parts
 | Reference | Value | Type | Amount |
 | - | - | - | - |
