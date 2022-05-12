@@ -11,6 +11,10 @@ by Benjie Jiao
 ![DSC03823 resized](https://user-images.githubusercontent.com/5189714/144732334-2ea9b254-dfcb-4250-980c-ec5ecda9a863.jpg)
 
 ### Versions
+#### rev 1.2.
+- Update drill holes to follow Doepfer standard placement.
+- Exported Gerber files separately per board instead of mousebites.
+
 #### rev 1.1.
 - Issue with mounting holes was fixed. 
 - Label sizes increased a bit.
