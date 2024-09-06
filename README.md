@@ -1,6 +1,5 @@
 # MiniOSC
-by Benjie Jiao
-
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 ![DSC03716 resized](https://user-images.githubusercontent.com/5189714/144732322-b44c964f-1781-4c37-bf1b-4cb2dd1748f6.jpg)
 
@@ -75,3 +74,15 @@ The pots I've tested are RV09-types.
 | -  | -  |
 | Schematics | [MiniOSC-ref1.0.pdf](https://github.com/benjiaomodular/MiniOSC/raw/master/PDF/MiniOSC-rev1.0.pdf) |
 | BOM | [MiniOSC - BOM.csv](https://raw.githubusercontent.com/benjiaomodular/MiniOSC/master/Fabrication/MiniOSC-rev1.1/MiniOSC%20-%20BOM.csv) |
+
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
