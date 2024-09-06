@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "MiniOSC-rescue")(type "Legacy")(uri "${KIPRJMOD}/MiniOSC-rescue.lib")(options "")(descr ""))
-)
