@@ -52,8 +52,18 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "silk_edge_clearance|146401074|95744942|a1987643-a550-42af-9d70-4415c5d06793|39285ace-7c68-4ac7-8bc0-64324168a746",
+        "text_thickness|181400000|140800000|3b8131e8-96d1-466f-8670-f038428e238a|00000000-0000-0000-0000-000000000000",
+        "via_dangling|155000000|137500000|7d011692-9808-4a1c-893a-e508b163bb87|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -68,8 +78,8 @@
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
-        "duplicate_footprints": "warning",
-        "extra_footprint": "warning",
+        "duplicate_footprints": "ignore",
+        "extra_footprint": "ignore",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
@@ -178,7 +188,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -205,7 +219,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -474,7 +493,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "MiniOSC.net",
-      "plot": "",
+      "plot": "svg/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

@@ -1,4 +1,4 @@
-23800581127533386
+23806148103833778
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96635,6 +96635,13 @@ AudioJack_3.5mm
 3
 3
 benjiaomodular
+Button_KFC7x7
+
+
+0
+6
+6
+benjiaomodular
 Capacitor_Disc_D3.8mm_W2.6mm_P2.50mm
 
 
@@ -96655,6 +96662,13 @@ Capacitor_Rect_L7.2mm_W2.5mm_P5.00mm
 0
 2
 2
+benjiaomodular
+Header_IDC2x05_NoArrow
+
+
+0
+10
+10
 benjiaomodular
 MountingHole_M3
 
@@ -96734,6 +96748,13 @@ Panel_8HP
 0
 benjiaomodular
 Panel_10HP
+
+
+0
+4
+0
+benjiaomodular
+Panel_16HP
 
 
 0
