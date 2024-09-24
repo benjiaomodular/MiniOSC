@@ -52,8 +52,18 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "silk_edge_clearance|146401074|95744942|a1987643-a550-42af-9d70-4415c5d06793|39285ace-7c68-4ac7-8bc0-64324168a746",
+        "text_thickness|181400000|140800000|3b8131e8-96d1-466f-8670-f038428e238a|00000000-0000-0000-0000-000000000000",
+        "via_dangling|155000000|137500000|7d011692-9808-4a1c-893a-e508b163bb87|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -68,11 +78,11 @@
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
-        "duplicate_footprints": "warning",
-        "extra_footprint": "warning",
+        "duplicate_footprints": "ignore",
+        "extra_footprint": "ignore",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -89,7 +99,7 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "warning",
+        "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
@@ -130,7 +140,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -178,7 +188,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -205,7 +219,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -401,7 +420,6 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
       "conflicting_netclasses": "error",
@@ -468,203 +486,14 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "+12V"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "-12V"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/FrontPanel/FP_12V_POS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/FrontPanel/FP_COARSE"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/FrontPanel/FP_FINE"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/FrontPanel/FP_FM_AMT_P2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/FrontPanel/FP_FM_AMT_P3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/FrontPanel/FP_FM_IN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/FrontPanel/FP_PULSE_OUT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/FrontPanel/FP_PULSE_WIDTH"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/FrontPanel/FP_SAW_OUT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/FrontPanel/FP_SCALE"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/FrontPanel/FP_V_OCT_IN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Earth"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "FM_AMT_P2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "FM_AMT_P3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "FP_12V_NEG"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GND1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C1-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C2-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C2-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C3-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C3-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D1-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D2-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D2-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D3-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J1-Pad15)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J1-Pad16)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J1-Pad5)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J1-Pad6)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J8-Pad11)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J8-Pad13)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J8-Pad15)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q1-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R1-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R13-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R14-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R16-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R2-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R3-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R4-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U1-Pad13)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "PULSE_OUT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "PULSE_WIDTH"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SAW_OUT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SCALE"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "MiniOSC.net",
-      "plot": "",
+      "plot": "svg/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -706,10 +535,10 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -725,13 +554,43 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "URL",
+          "name": "URL",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "name": "",
+      "sort_asc": false,
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -786,18 +645,6 @@
     [
       "995d0ac4-fdc3-404c-a472-c60e34c20729",
       "Root"
-    ],
-    [
-      "00000000-0000-0000-0000-000061b188f6",
-      "FrontPanel"
-    ],
-    [
-      "00000000-0000-0000-0000-000061fe83af",
-      "Unused"
-    ],
-    [
-      "00000000-0000-0000-0000-000061fa9972",
-      "Power"
     ]
   ],
   "text_variables": {}

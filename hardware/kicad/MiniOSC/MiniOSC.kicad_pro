@@ -60,7 +60,6 @@
         }
       ],
       "drc_exclusions": [
-        "silk_edge_clearance|146401074|95744942|a1987643-a550-42af-9d70-4415c5d06793|39285ace-7c68-4ac7-8bc0-64324168a746",
         "text_thickness|181400000|140800000|3b8131e8-96d1-466f-8670-f038428e238a|00000000-0000-0000-0000-000000000000",
         "via_dangling|155000000|137500000|7d011692-9808-4a1c-893a-e508b163bb87|00000000-0000-0000-0000-000000000000"
       ],
@@ -535,7 +534,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -578,6 +577,12 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": true,
+          "label": "URL",
+          "name": "URL",
+          "show": true
         }
       ],
       "filter_string": "",

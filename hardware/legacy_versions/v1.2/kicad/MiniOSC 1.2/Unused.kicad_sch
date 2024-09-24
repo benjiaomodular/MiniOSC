@@ -1,799 +1,2225 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid 08225ad3-89aa-42ca-bb22-200b50cedf0e)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "4xxx:40106" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (id 0) (at 0 1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "40106" (id 1) (at 0 -1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "CMOS" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Hex Schmitt trigger inverter" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "DIP?14*" (id 7) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "40106_1_0"
-        (polyline
-          (pts
-            (xy -0.635 -1.27)
-            (xy -0.635 1.27)
-            (xy 0.635 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 3.81)
-            (xy -3.81 -3.81)
-            (xy 3.81 0)
-            (xy -3.81 3.81)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -1.27)
-            (xy 0.635 -1.27)
-            (xy 0.635 1.27)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin input line (at -7.62 0 0) (length 3.81)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin output inverted (at 7.62 0 180) (length 3.81)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "40106_2_0"
-        (polyline
-          (pts
-            (xy -0.635 -1.27)
-            (xy -0.635 1.27)
-            (xy 0.635 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 3.81)
-            (xy -3.81 -3.81)
-            (xy 3.81 0)
-            (xy -3.81 3.81)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -1.27)
-            (xy 0.635 -1.27)
-            (xy 0.635 1.27)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin input line (at -7.62 0 0) (length 3.81)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin output inverted (at 7.62 0 180) (length 3.81)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "40106_3_0"
-        (polyline
-          (pts
-            (xy -0.635 -1.27)
-            (xy -0.635 1.27)
-            (xy 0.635 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 3.81)
-            (xy -3.81 -3.81)
-            (xy 3.81 0)
-            (xy -3.81 3.81)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -1.27)
-            (xy 0.635 -1.27)
-            (xy 0.635 1.27)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin input line (at -7.62 0 0) (length 3.81)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin output inverted (at 7.62 0 180) (length 3.81)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "40106_4_0"
-        (polyline
-          (pts
-            (xy -0.635 -1.27)
-            (xy -0.635 1.27)
-            (xy 0.635 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 3.81)
-            (xy -3.81 -3.81)
-            (xy 3.81 0)
-            (xy -3.81 3.81)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -1.27)
-            (xy 0.635 -1.27)
-            (xy 0.635 1.27)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin output inverted (at 7.62 0 180) (length 3.81)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 0 0) (length 3.81)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "40106_5_0"
-        (polyline
-          (pts
-            (xy -0.635 -1.27)
-            (xy -0.635 1.27)
-            (xy 0.635 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 3.81)
-            (xy -3.81 -3.81)
-            (xy 3.81 0)
-            (xy -3.81 3.81)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -1.27)
-            (xy 0.635 -1.27)
-            (xy 0.635 1.27)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin output inverted (at 7.62 0 180) (length 3.81)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 0 0) (length 3.81)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "40106_6_0"
-        (polyline
-          (pts
-            (xy -0.635 -1.27)
-            (xy -0.635 1.27)
-            (xy 0.635 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 3.81)
-            (xy -3.81 -3.81)
-            (xy 3.81 0)
-            (xy -3.81 3.81)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -1.27)
-            (xy 0.635 -1.27)
-            (xy 0.635 1.27)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin output inverted (at 7.62 0 180) (length 3.81)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 0 0) (length 3.81)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "40106_7_0"
-        (pin power_in line (at 0 12.7 270) (length 5.08)
-          (name "VDD" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -12.7 90) (length 5.08)
-          (name "VSS" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "40106_7_1"
-        (rectangle (start -5.08 7.62) (end 5.08 -7.62)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-      )
-    )
-    (symbol "Amplifier_Operational:TL074" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (id 0) (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "TL074" (id 1) (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (id 2) (at -1.27 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (id 3) (at 1.27 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "quad opamp" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*" (id 7) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TL074_1_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "TL074_2_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "TL074_3_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "TL074_4_1"
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (pin input line (at -7.62 2.54 0) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "TL074_5_1"
-        (pin power_in line (at -2.54 -7.62 90) (length 3.81)
-          (name "V-" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -2.54 7.62 270) (length 3.81)
-          (name "V+" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (id 0) (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (id 1) (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+12V" (id 1) (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+12V\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+12V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "+12V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+12V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:-12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "-12V" (id 1) (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"-12V\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "-12V_0_0"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "-12V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "-12V_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-            (xy 0.762 1.27)
-            (xy 0 2.54)
-            (xy -0.762 1.27)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type outline))
-        )
-      )
-    )
-  )
-
-  (junction (at 127.635 90.805) (diameter 0) (color 0 0 0 0)
-    (uuid bd3596ac-4aa1-4d49-8dec-f4f2b3e08fb8)
-  )
-
-  (no_connect (at 157.48 93.98) (uuid 1e2be732-c98e-48cc-864a-c33d281342e0))
-  (no_connect (at 172.72 93.98) (uuid 388ebff7-c115-44ac-97b8-e0880e1a9931))
-  (no_connect (at 157.48 81.28) (uuid 3f0af28e-b910-47e6-923b-8ff4adc3ac6f))
-  (no_connect (at 172.72 67.945) (uuid 86616b14-5011-4b03-a817-9711c5e84d93))
-  (no_connect (at 157.48 107.315) (uuid c35c69d7-413f-4487-ab79-a5539a898c3a))
-  (no_connect (at 172.72 107.315) (uuid cd3b517e-0d1b-4b0f-995c-81e19050a27a))
-  (no_connect (at 172.72 81.28) (uuid cd3d119a-6fd4-437f-a2be-d43fd6adb9af))
-  (no_connect (at 157.48 67.945) (uuid cf20e348-0ff8-4023-8c98-f629f9e9435d))
-
-  (wire (pts (xy 132.08 85.725) (xy 132.08 78.74))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 090d7cf7-ec39-4bc7-8485-d3f7780fbd76)
-  )
-  (wire (pts (xy 133.35 85.725) (xy 132.08 85.725))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 18295e39-0351-4b60-8b62-9fbe25a6f58e)
-  )
-  (wire (pts (xy 151.13 88.265) (xy 148.59 88.265))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 3618ab44-cb94-4e90-9d37-4f6457450a49)
-  )
-  (wire (pts (xy 127.635 76.2) (xy 127.635 80.01))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 58e93f63-db49-42dd-b356-409e1184e55a)
-  )
-  (wire (pts (xy 133.35 90.805) (xy 127.635 90.805))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 639c1f69-c075-4807-aa8d-278284099682)
-  )
-  (wire (pts (xy 132.08 78.74) (xy 151.13 78.74))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 751b0ee7-7352-48b3-90bb-eedd5826db58)
-  )
-  (wire (pts (xy 127.635 87.63) (xy 127.635 90.805))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a08510eb-4e07-41c0-9ca5-e3060c0a9c23)
-  )
-  (wire (pts (xy 151.13 78.74) (xy 151.13 88.265))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid adde5d2d-e89c-4abb-9b01-217c8bfcf4d8)
-  )
-  (wire (pts (xy 127.635 90.805) (xy 127.635 93.98))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c50046fd-aba1-4aff-abc3-50ea5c3e8360)
-  )
-  (wire (pts (xy 127.635 101.6) (xy 127.635 104.14))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid ff83e504-4eef-4c5b-a014-8c63a8ce96ed)
-  )
-
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 140.97 88.265 0) (mirror x) (unit 4)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000061a9c403)
-    (property "Reference" "U1" (id 0) (at 140.97 78.9432 0))
-    (property "Value" "TL074" (id 1) (at 140.97 81.2546 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket" (id 2) (at 139.7 90.805 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" (id 3) (at 142.24 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 88f68eba-aff3-46d6-afa9-da397f33c8df))
-    (pin "2" (uuid 464b0a12-3014-42cb-820e-433d44c797a4))
-    (pin "3" (uuid 2cb6ca75-b17c-4ff1-8204-523ae9747f55))
-    (pin "5" (uuid d96873eb-aff8-4a53-a4ab-b81e7884c80d))
-    (pin "6" (uuid 5ed2da38-99bc-4e9b-922e-68b4c50c995e))
-    (pin "7" (uuid 30ef094b-582b-41c7-9665-e64d45af9025))
-    (pin "10" (uuid 4a9e97e8-60f2-4c25-8378-12ad506f72fe))
-    (pin "8" (uuid c052beec-3a6e-4e13-b53e-09ad948bb884))
-    (pin "9" (uuid 0096badd-1e5d-47b6-941a-f571066278cd))
-    (pin "12" (uuid c9418374-7075-4048-be03-c6caa7db08b9))
-    (pin "13" (uuid 4ba4ec77-e9c7-46bf-86a3-dfde0781d720))
-    (pin "14" (uuid 855ba7c3-fe15-4eab-bd99-25635c15d02a))
-    (pin "11" (uuid ee204e49-062c-4222-9832-22c0016b429f))
-    (pin "4" (uuid 3a13dca7-b499-49cd-b88c-ad7e17b6e997))
-  )
-
-  (symbol (lib_id "Device:R") (at 127.635 97.79 180) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000061a9c409)
-    (property "Reference" "R17" (id 0) (at 130.175 97.79 90))
-    (property "Value" "10K" (id 1) (at 127.635 97.79 90))
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 129.413 97.79 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 127.635 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a961221d-cb3e-4d08-9823-816314935376))
-    (pin "2" (uuid e8856037-79f2-4460-ab2d-21b305f1d1f4))
-  )
-
-  (symbol (lib_id "Device:R") (at 127.635 83.82 180) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000061a9c40f)
-    (property "Reference" "R16" (id 0) (at 130.175 83.82 90))
-    (property "Value" "10K" (id 1) (at 127.635 83.82 90))
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 129.413 83.82 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 127.635 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d3d6eb51-7bd2-4185-b8c8-7831cf1e1b86))
-    (pin "2" (uuid 30cbb37d-2cc1-4176-9f87-efc7a6ad2fe8))
-  )
-
-  (symbol (lib_id "power:+12V") (at 127.635 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000061a9c419)
-    (property "Reference" "#PWR031" (id 0) (at 127.635 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (id 1) (at 128.016 71.8058 0))
-    (property "Footprint" "" (id 2) (at 127.635 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 127.635 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 64384583-c4fd-49db-b670-ce07bb6d89bf))
-  )
-
-  (symbol (lib_id "power:-12V") (at 127.635 104.14 180) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000061a9c425)
-    (property "Reference" "#PWR032" (id 0) (at 127.635 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "-12V" (id 1) (at 127.254 108.5342 0))
-    (property "Footprint" "" (id 2) (at 127.635 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 127.635 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 374cd838-c508-432e-89a9-5a5614a9ef35))
-  )
-
-  (symbol (lib_id "4xxx:40106") (at 165.1 81.28 0) (unit 4)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000061a9c42c)
-    (property "Reference" "U2" (id 0) (at 165.1 73.2282 0))
-    (property "Value" "40106" (id 1) (at 165.1 75.5396 0))
-    (property "Footprint" "" (id 2) (at 165.1 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" (id 3) (at 165.1 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 67515f10-58fd-45c4-8637-c48360d3c8ee))
-    (pin "2" (uuid 535223c0-f8cf-4aff-87c3-ae167afc80ac))
-    (pin "3" (uuid 58596cae-efb1-4eb3-b2d7-0c15b513b585))
-    (pin "4" (uuid 28ee5a28-3810-4df0-95a3-5e72b050579d))
-    (pin "5" (uuid a2296926-5b44-4ad0-a27b-92ee16b4f107))
-    (pin "6" (uuid e4f782cf-e189-4ab0-94ff-5bb60e9730e7))
-    (pin "8" (uuid db0e3202-6b59-447b-ab2b-45157860b7eb))
-    (pin "9" (uuid 02ebe93f-a8ce-4c07-b5f2-7f0bbb637ff5))
-    (pin "10" (uuid 16458ebf-e74d-4818-ab9e-07b0cf854e46))
-    (pin "11" (uuid a7824898-2c18-4921-8740-c9ee913be267))
-    (pin "12" (uuid 2ffd40a4-9cf2-4349-b15a-a07a768c58b2))
-    (pin "13" (uuid 954a06a9-3e57-4de8-96ce-d791d4a8725b))
-    (pin "14" (uuid 08a67d02-e615-4034-86ef-53b479ccb649))
-    (pin "7" (uuid 7b469607-9c1a-425c-b759-dcd7fc435adf))
-  )
-
-  (symbol (lib_id "4xxx:40106") (at 165.1 107.315 0) (unit 6)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000061a9c432)
-    (property "Reference" "U2" (id 0) (at 165.1 99.2632 0))
-    (property "Value" "40106" (id 1) (at 165.1 101.5746 0))
-    (property "Footprint" "" (id 2) (at 165.1 107.315 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" (id 3) (at 165.1 107.315 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 696f55ec-5a2f-4601-b89b-93dc79ae7b31))
-    (pin "2" (uuid 0faec815-aa21-481a-83c0-16a156917891))
-    (pin "3" (uuid 76610e74-f46b-4f7f-9694-f304bff559f8))
-    (pin "4" (uuid ee395547-eb75-439f-adeb-45ea420573e7))
-    (pin "5" (uuid 8258de3a-0746-49f4-a821-b5a088a8081f))
-    (pin "6" (uuid d85ffd56-cfcc-4a29-8c2b-e26215e91491))
-    (pin "8" (uuid dfb4bdaf-66fb-491c-96eb-7ef3bbaad7df))
-    (pin "9" (uuid 30248fb5-7e15-400c-9655-9f0176760e24))
-    (pin "10" (uuid 6c91eeb2-bf1b-46fe-b747-aaddcb42fa2b))
-    (pin "11" (uuid 47e50e9d-5b98-4114-9dae-5e47ed638ebd))
-    (pin "12" (uuid 227826be-f125-4b6c-a082-5a04ebc50520))
-    (pin "13" (uuid 03f749a2-b6e7-4b64-a62b-8751f87fd954))
-    (pin "14" (uuid fceab2f5-dbdd-4c5c-b578-20880a8177e5))
-    (pin "7" (uuid 534d105c-5942-4e5e-8c4d-2aa7b784c575))
-  )
-
-  (symbol (lib_id "4xxx:40106") (at 165.1 67.945 0) (unit 3)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000061a9c438)
-    (property "Reference" "U2" (id 0) (at 165.1 59.8932 0))
-    (property "Value" "40106" (id 1) (at 165.1 62.2046 0))
-    (property "Footprint" "" (id 2) (at 165.1 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" (id 3) (at 165.1 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 978b880b-b46e-4a5c-add4-a3c2652b4b9a))
-    (pin "2" (uuid 65aa48c3-5554-416e-9eb8-111162ff46d9))
-    (pin "3" (uuid e38ae1d0-bbcd-46ee-8ff5-17552142299c))
-    (pin "4" (uuid de83e9a5-bad9-48e0-b649-50b6905b6d6a))
-    (pin "5" (uuid 399f83ef-954d-4796-b08e-56b26d9a8464))
-    (pin "6" (uuid a61f46e0-44ec-43e8-818e-5b44069342ff))
-    (pin "8" (uuid abe6c3e4-55c0-490a-8d7c-08eb148f056f))
-    (pin "9" (uuid 31cada83-4c85-4e7d-838c-6f1db68724c3))
-    (pin "10" (uuid 6b93bb83-2fee-436c-9b57-528a32221cc4))
-    (pin "11" (uuid adad21dd-2627-4298-ac47-fdbd64d8e720))
-    (pin "12" (uuid 0ef9b2c1-6a26-4bfe-a13f-1f18f7536173))
-    (pin "13" (uuid 58dc7d23-2707-4968-8a89-9d8a0186b1b2))
-    (pin "14" (uuid c5b48bbc-46a8-43f4-8b56-6173f15850ad))
-    (pin "7" (uuid 224d42fe-e193-4309-b8fd-184147fcb5b8))
-  )
-
-  (symbol (lib_id "4xxx:40106") (at 165.1 93.98 0) (unit 5)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000061a9c446)
-    (property "Reference" "U2" (id 0) (at 165.1 85.9282 0))
-    (property "Value" "40106" (id 1) (at 165.1 88.2396 0))
-    (property "Footprint" "" (id 2) (at 165.1 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" (id 3) (at 165.1 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 91e8e40c-183c-44f6-8b91-4a289822785a))
-    (pin "2" (uuid a1698e07-ce99-459a-b0bb-a64e2837c0de))
-    (pin "3" (uuid 8ebf107a-73c8-4131-9bc4-5c6f52ceb3eb))
-    (pin "4" (uuid 0da0d0e1-4707-4988-a1fe-fa18e84d57ce))
-    (pin "5" (uuid 3dadf92f-d4b4-490b-869c-de4ed5eb1b32))
-    (pin "6" (uuid b7f150ea-fc41-4c52-be25-e6d832434c45))
-    (pin "8" (uuid 40a94325-cd96-47a1-9c12-d5165ce9e69c))
-    (pin "9" (uuid 4bec7bad-669b-4252-8420-7b4f01cc814b))
-    (pin "10" (uuid 690b8312-f635-4d62-adef-f2cc76202e34))
-    (pin "11" (uuid e55fdcfe-e05c-486c-bc3c-2013c87cb9d8))
-    (pin "12" (uuid d84ad554-7b91-476a-8e15-59b2bc2876a5))
-    (pin "13" (uuid a7eaa26e-f457-4687-a5d1-e1b7f824830e))
-    (pin "14" (uuid 3987ba08-f6c4-4ef0-bb45-3f5154e3be42))
-    (pin "7" (uuid a17ca73a-0a69-411f-a8d0-9dca4dc0cd62))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "08225ad3-89aa-42ca-bb22-200b50cedf0e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "4xxx:40106"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "40106"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Hex Schmitt trigger inverter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP?14*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "40106_1_0"
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "40106_2_0"
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "40106_3_0"
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "40106_4_0"
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "40106_5_0"
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "40106_6_0"
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "40106_7_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "40106_7_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Amplifier_Operational:TL074"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL074"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL074_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_5_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:-12V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-12V"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-12V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "-12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-12V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 127.635 90.805)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd3596ac-4aa1-4d49-8dec-f4f2b3e08fb8")
+	)
+	(no_connect
+		(at 157.48 93.98)
+		(uuid "1e2be732-c98e-48cc-864a-c33d281342e0")
+	)
+	(no_connect
+		(at 172.72 93.98)
+		(uuid "388ebff7-c115-44ac-97b8-e0880e1a9931")
+	)
+	(no_connect
+		(at 157.48 81.28)
+		(uuid "3f0af28e-b910-47e6-923b-8ff4adc3ac6f")
+	)
+	(no_connect
+		(at 172.72 67.945)
+		(uuid "86616b14-5011-4b03-a817-9711c5e84d93")
+	)
+	(no_connect
+		(at 157.48 107.315)
+		(uuid "c35c69d7-413f-4487-ab79-a5539a898c3a")
+	)
+	(no_connect
+		(at 172.72 107.315)
+		(uuid "cd3b517e-0d1b-4b0f-995c-81e19050a27a")
+	)
+	(no_connect
+		(at 172.72 81.28)
+		(uuid "cd3d119a-6fd4-437f-a2be-d43fd6adb9af")
+	)
+	(no_connect
+		(at 157.48 67.945)
+		(uuid "cf20e348-0ff8-4023-8c98-f629f9e9435d")
+	)
+	(wire
+		(pts
+			(xy 132.08 85.725) (xy 132.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090d7cf7-ec39-4bc7-8485-d3f7780fbd76")
+	)
+	(wire
+		(pts
+			(xy 133.35 85.725) (xy 132.08 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18295e39-0351-4b60-8b62-9fbe25a6f58e")
+	)
+	(wire
+		(pts
+			(xy 151.13 88.265) (xy 148.59 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3618ab44-cb94-4e90-9d37-4f6457450a49")
+	)
+	(wire
+		(pts
+			(xy 127.635 76.2) (xy 127.635 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e93f63-db49-42dd-b356-409e1184e55a")
+	)
+	(wire
+		(pts
+			(xy 133.35 90.805) (xy 127.635 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639c1f69-c075-4807-aa8d-278284099682")
+	)
+	(wire
+		(pts
+			(xy 132.08 78.74) (xy 151.13 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751b0ee7-7352-48b3-90bb-eedd5826db58")
+	)
+	(wire
+		(pts
+			(xy 127.635 87.63) (xy 127.635 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08510eb-4e07-41c0-9ca5-e3060c0a9c23")
+	)
+	(wire
+		(pts
+			(xy 151.13 78.74) (xy 151.13 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adde5d2d-e89c-4abb-9b01-217c8bfcf4d8")
+	)
+	(wire
+		(pts
+			(xy 127.635 90.805) (xy 127.635 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50046fd-aba1-4aff-abc3-50ea5c3e8360")
+	)
+	(wire
+		(pts
+			(xy 127.635 101.6) (xy 127.635 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff83e504-4eef-4c5b-a014-8c63a8ce96ed")
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 140.97 88.265 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061a9c403")
+		(property "Reference" "U1"
+			(at 140.97 78.9432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 140.97 81.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
+			(at 139.7 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 142.24 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88f68eba-aff3-46d6-afa9-da397f33c8df")
+		)
+		(pin "2"
+			(uuid "464b0a12-3014-42cb-820e-433d44c797a4")
+		)
+		(pin "3"
+			(uuid "2cb6ca75-b17c-4ff1-8204-523ae9747f55")
+		)
+		(pin "5"
+			(uuid "d96873eb-aff8-4a53-a4ab-b81e7884c80d")
+		)
+		(pin "6"
+			(uuid "5ed2da38-99bc-4e9b-922e-68b4c50c995e")
+		)
+		(pin "7"
+			(uuid "30ef094b-582b-41c7-9665-e64d45af9025")
+		)
+		(pin "10"
+			(uuid "4a9e97e8-60f2-4c25-8378-12ad506f72fe")
+		)
+		(pin "8"
+			(uuid "c052beec-3a6e-4e13-b53e-09ad948bb884")
+		)
+		(pin "9"
+			(uuid "0096badd-1e5d-47b6-941a-f571066278cd")
+		)
+		(pin "12"
+			(uuid "c9418374-7075-4048-be03-c6caa7db08b9")
+		)
+		(pin "13"
+			(uuid "4ba4ec77-e9c7-46bf-86a3-dfde0781d720")
+		)
+		(pin "14"
+			(uuid "855ba7c3-fe15-4eab-bd99-25635c15d02a")
+		)
+		(pin "11"
+			(uuid "ee204e49-062c-4222-9832-22c0016b429f")
+		)
+		(pin "4"
+			(uuid "3a13dca7-b499-49cd-b88c-ad7e17b6e997")
+		)
+		(instances
+			(project ""
+				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729/00000000-0000-0000-0000-000061fe83af"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127.635 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061a9c409")
+		(property "Reference" "R17"
+			(at 130.175 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 127.635 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 129.413 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.635 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.635 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a961221d-cb3e-4d08-9823-816314935376")
+		)
+		(pin "2"
+			(uuid "e8856037-79f2-4460-ab2d-21b305f1d1f4")
+		)
+		(instances
+			(project ""
+				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729/00000000-0000-0000-0000-000061fe83af"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127.635 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061a9c40f")
+		(property "Reference" "R16"
+			(at 130.175 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 127.635 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 129.413 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127.635 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.635 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3d6eb51-7bd2-4185-b8c8-7831cf1e1b86")
+		)
+		(pin "2"
+			(uuid "30cbb37d-2cc1-4176-9f87-efc7a6ad2fe8")
+		)
+		(instances
+			(project ""
+				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729/00000000-0000-0000-0000-000061fe83af"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 127.635 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061a9c419")
+		(property "Reference" "#PWR031"
+			(at 127.635 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 128.016 71.8058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.635 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.635 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.635 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64384583-c4fd-49db-b670-ce07bb6d89bf")
+		)
+		(instances
+			(project ""
+				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729/00000000-0000-0000-0000-000061fe83af"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-12V")
+		(at 127.635 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061a9c425")
+		(property "Reference" "#PWR032"
+			(at 127.635 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 127.254 108.5342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.635 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.635 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127.635 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "374cd838-c508-432e-89a9-5a5614a9ef35")
+		)
+		(instances
+			(project ""
+				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729/00000000-0000-0000-0000-000061fe83af"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 165.1 81.28 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061a9c42c")
+		(property "Reference" "U2"
+			(at 165.1 73.2282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 165.1 75.5396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67515f10-58fd-45c4-8637-c48360d3c8ee")
+		)
+		(pin "2"
+			(uuid "535223c0-f8cf-4aff-87c3-ae167afc80ac")
+		)
+		(pin "3"
+			(uuid "58596cae-efb1-4eb3-b2d7-0c15b513b585")
+		)
+		(pin "4"
+			(uuid "28ee5a28-3810-4df0-95a3-5e72b050579d")
+		)
+		(pin "5"
+			(uuid "a2296926-5b44-4ad0-a27b-92ee16b4f107")
+		)
+		(pin "6"
+			(uuid "e4f782cf-e189-4ab0-94ff-5bb60e9730e7")
+		)
+		(pin "8"
+			(uuid "db0e3202-6b59-447b-ab2b-45157860b7eb")
+		)
+		(pin "9"
+			(uuid "02ebe93f-a8ce-4c07-b5f2-7f0bbb637ff5")
+		)
+		(pin "10"
+			(uuid "16458ebf-e74d-4818-ab9e-07b0cf854e46")
+		)
+		(pin "11"
+			(uuid "a7824898-2c18-4921-8740-c9ee913be267")
+		)
+		(pin "12"
+			(uuid "2ffd40a4-9cf2-4349-b15a-a07a768c58b2")
+		)
+		(pin "13"
+			(uuid "954a06a9-3e57-4de8-96ce-d791d4a8725b")
+		)
+		(pin "14"
+			(uuid "08a67d02-e615-4034-86ef-53b479ccb649")
+		)
+		(pin "7"
+			(uuid "7b469607-9c1a-425c-b759-dcd7fc435adf")
+		)
+		(instances
+			(project ""
+				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729/00000000-0000-0000-0000-000061fe83af"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 165.1 107.315 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061a9c432")
+		(property "Reference" "U2"
+			(at 165.1 99.2632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 165.1 101.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 165.1 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "696f55ec-5a2f-4601-b89b-93dc79ae7b31")
+		)
+		(pin "2"
+			(uuid "0faec815-aa21-481a-83c0-16a156917891")
+		)
+		(pin "3"
+			(uuid "76610e74-f46b-4f7f-9694-f304bff559f8")
+		)
+		(pin "4"
+			(uuid "ee395547-eb75-439f-adeb-45ea420573e7")
+		)
+		(pin "5"
+			(uuid "8258de3a-0746-49f4-a821-b5a088a8081f")
+		)
+		(pin "6"
+			(uuid "d85ffd56-cfcc-4a29-8c2b-e26215e91491")
+		)
+		(pin "8"
+			(uuid "dfb4bdaf-66fb-491c-96eb-7ef3bbaad7df")
+		)
+		(pin "9"
+			(uuid "30248fb5-7e15-400c-9655-9f0176760e24")
+		)
+		(pin "10"
+			(uuid "6c91eeb2-bf1b-46fe-b747-aaddcb42fa2b")
+		)
+		(pin "11"
+			(uuid "47e50e9d-5b98-4114-9dae-5e47ed638ebd")
+		)
+		(pin "12"
+			(uuid "227826be-f125-4b6c-a082-5a04ebc50520")
+		)
+		(pin "13"
+			(uuid "03f749a2-b6e7-4b64-a62b-8751f87fd954")
+		)
+		(pin "14"
+			(uuid "fceab2f5-dbdd-4c5c-b578-20880a8177e5")
+		)
+		(pin "7"
+			(uuid "534d105c-5942-4e5e-8c4d-2aa7b784c575")
+		)
+		(instances
+			(project ""
+				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729/00000000-0000-0000-0000-000061fe83af"
+					(reference "U2")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 165.1 67.945 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061a9c438")
+		(property "Reference" "U2"
+			(at 165.1 59.8932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 165.1 62.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 165.1 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "978b880b-b46e-4a5c-add4-a3c2652b4b9a")
+		)
+		(pin "2"
+			(uuid "65aa48c3-5554-416e-9eb8-111162ff46d9")
+		)
+		(pin "3"
+			(uuid "e38ae1d0-bbcd-46ee-8ff5-17552142299c")
+		)
+		(pin "4"
+			(uuid "de83e9a5-bad9-48e0-b649-50b6905b6d6a")
+		)
+		(pin "5"
+			(uuid "399f83ef-954d-4796-b08e-56b26d9a8464")
+		)
+		(pin "6"
+			(uuid "a61f46e0-44ec-43e8-818e-5b44069342ff")
+		)
+		(pin "8"
+			(uuid "abe6c3e4-55c0-490a-8d7c-08eb148f056f")
+		)
+		(pin "9"
+			(uuid "31cada83-4c85-4e7d-838c-6f1db68724c3")
+		)
+		(pin "10"
+			(uuid "6b93bb83-2fee-436c-9b57-528a32221cc4")
+		)
+		(pin "11"
+			(uuid "adad21dd-2627-4298-ac47-fdbd64d8e720")
+		)
+		(pin "12"
+			(uuid "0ef9b2c1-6a26-4bfe-a13f-1f18f7536173")
+		)
+		(pin "13"
+			(uuid "58dc7d23-2707-4968-8a89-9d8a0186b1b2")
+		)
+		(pin "14"
+			(uuid "c5b48bbc-46a8-43f4-8b56-6173f15850ad")
+		)
+		(pin "7"
+			(uuid "224d42fe-e193-4309-b8fd-184147fcb5b8")
+		)
+		(instances
+			(project ""
+				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729/00000000-0000-0000-0000-000061fe83af"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 165.1 93.98 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061a9c446")
+		(property "Reference" "U2"
+			(at 165.1 85.9282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 165.1 88.2396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91e8e40c-183c-44f6-8b91-4a289822785a")
+		)
+		(pin "2"
+			(uuid "a1698e07-ce99-459a-b0bb-a64e2837c0de")
+		)
+		(pin "3"
+			(uuid "8ebf107a-73c8-4131-9bc4-5c6f52ceb3eb")
+		)
+		(pin "4"
+			(uuid "0da0d0e1-4707-4988-a1fe-fa18e84d57ce")
+		)
+		(pin "5"
+			(uuid "3dadf92f-d4b4-490b-869c-de4ed5eb1b32")
+		)
+		(pin "6"
+			(uuid "b7f150ea-fc41-4c52-be25-e6d832434c45")
+		)
+		(pin "8"
+			(uuid "40a94325-cd96-47a1-9c12-d5165ce9e69c")
+		)
+		(pin "9"
+			(uuid "4bec7bad-669b-4252-8420-7b4f01cc814b")
+		)
+		(pin "10"
+			(uuid "690b8312-f635-4d62-adef-f2cc76202e34")
+		)
+		(pin "11"
+			(uuid "e55fdcfe-e05c-486c-bc3c-2013c87cb9d8")
+		)
+		(pin "12"
+			(uuid "d84ad554-7b91-476a-8e15-59b2bc2876a5")
+		)
+		(pin "13"
+			(uuid "a7eaa26e-f457-4687-a5d1-e1b7f824830e")
+		)
+		(pin "14"
+			(uuid "3987ba08-f6c4-4ef0-bb45-3f5154e3be42")
+		)
+		(pin "7"
+			(uuid "a17ca73a-0a69-411f-a8d0-9dca4dc0cd62")
+		)
+		(instances
+			(project ""
+				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729/00000000-0000-0000-0000-000061fe83af"
+					(reference "U2")
+					(unit 5)
+				)
+			)
+		)
+	)
 )

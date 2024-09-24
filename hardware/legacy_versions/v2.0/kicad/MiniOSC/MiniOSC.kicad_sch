@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiniOSC")
-		(rev "2.1")
+		(rev "2.0")
 		(company "benjiaomodular")
 	)
 	(lib_symbols
@@ -7513,7 +7513,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680pF"
+		(property "Value" "2.2nF"
 			(at 122.301 59.563 0)
 			(effects
 				(font
@@ -8395,7 +8395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
 			(at 51.7652 165.1 0)
 			(effects
 				(font
@@ -12559,7 +12559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
 			(at 51.7652 177.8 0)
 			(effects
 				(font
@@ -14184,7 +14184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
 			(at 75.692 82.55 90)
 			(effects
 				(font
@@ -14211,7 +14211,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.taydaelectronics.com/1k-ohm-trimmer-potentiometer-cermet-25-turns-3296w.html"
+		(property "URL" "https://mou.sr/3MFeCCP"
 			(at 77.47 82.55 0)
 			(effects
 				(font

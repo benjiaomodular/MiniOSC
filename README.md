@@ -6,6 +6,12 @@
 
 More info on my website: https://benjiaomodular.com/post/2021-12-03-volt-per-octave-40106-vco/
 
+## Schematics
+**Version 2.1**
+
+![](docs/MiniOSC%20v2.1%20-%20Schematics.png)
+
+
 ## License
 
 This work is licensed under a
