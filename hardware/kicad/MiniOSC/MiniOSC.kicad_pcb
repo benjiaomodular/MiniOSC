@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiniOSC")
-		(rev "v2.1")
+		(rev "2.1")
 		(company "benjiaomodular")
 	)
 	(layers
@@ -20218,7 +20218,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "68k"
 			(at -0.1825 4.0125 0)
 			(layer "B.Fab")
 			(uuid "2d5a6d5f-89b2-44e7-9bcf-865e3a668c21")
