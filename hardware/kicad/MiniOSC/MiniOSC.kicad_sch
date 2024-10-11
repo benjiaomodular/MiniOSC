@@ -6684,6 +6684,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-07100KL"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e89ac0d0-8f1c-4d41-8263-de23f8cd9b04")
 		)
@@ -6752,6 +6770,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3Znalvs"
+			(at 40.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 40.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071ML"
 			(at 40.64 66.04 0)
 			(effects
 				(font
@@ -6836,6 +6872,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-07100KL"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "290a2277-fe35-4d55-b2d3-6cdfa6b367ef")
 		)
@@ -6904,6 +6958,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/4el3qXS"
+			(at 34.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 34.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-07100KL"
 			(at 34.29 104.14 0)
 			(effects
 				(font
@@ -6988,6 +7060,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay / BC Components"
+			(at 44.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "NTCS0603E3103JLT"
+			(at 44.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4ad3ce4-b6fd-4ebd-9e44-5e97294e947d")
 		)
@@ -7056,6 +7146,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/4el3hDO"
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay / BC Components"
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "NTCS0603E3103JLT"
 			(at 52.07 83.82 0)
 			(effects
 				(font
@@ -7140,6 +7248,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay / BC Components"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "NTCS0603E3103JLT"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "841a24d6-651c-4c05-ade0-b61445dc7086")
 		)
@@ -7208,6 +7334,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/4el3hDO"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay / BC Components"
+			(at 52.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "NTCS0603E3103JLT"
 			(at 52.07 44.45 0)
 			(effects
 				(font
@@ -7292,6 +7436,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" " RC0603FR-071K5L"
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b142d6e-d364-404a-a41e-9df373c0b7c5")
 		)
@@ -7368,6 +7530,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071ML"
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61ca1bd5-953e-46f1-9204-e29b0120feb8")
 		)
@@ -7436,6 +7616,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/47m5xIo"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CD40106BM96G4"
 			(at 129.54 44.45 0)
 			(effects
 				(font
@@ -7549,7 +7747,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://mou.sr/3zee3wG"
+		(property "URL" "https://mou.sr/4goVMgC"
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay / Vitramon"
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "VJ0603Y681KXAAC"
 			(at 119.38 58.42 0)
 			(effects
 				(font
@@ -7626,6 +7842,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3z6QVAe"
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TL074ACDT"
 			(at 147.32 54.61 0)
 			(effects
 				(font
@@ -7747,6 +7981,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 269.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TL074ACDT"
+			(at 269.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7053ba9c-0437-4234-9c01-f2b167566e64")
 		)
@@ -7852,6 +8104,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3z6QVAe"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TL074ACDT"
 			(at 165.1 91.44 0)
 			(effects
 				(font
@@ -7972,6 +8242,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 167.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-07100KL"
+			(at 167.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce22bfaf-87a8-43e7-a852-321aa79a56a6")
 		)
@@ -8048,6 +8336,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-07100KL"
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d745c2a8-58d0-463b-a864-9f544f49b8fe")
 		)
@@ -8115,7 +8421,25 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://mou.sr/4ebt4y6"
+		(property "URL" "https://mou.sr/3ToI2ZD"
+			(at 191.77 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 191.77 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-0768KL"
 			(at 191.77 71.12 0)
 			(effects
 				(font
@@ -8200,6 +8524,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL"
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "665c7385-1d4f-4ee4-8f2f-e17cdd8aeade")
 		)
@@ -8268,6 +8610,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/4el3qXS"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-07100KL"
 			(at 138.43 93.98 0)
 			(effects
 				(font
@@ -8352,6 +8712,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 182.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL"
+			(at 182.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4a87988-ea9d-4107-ad90-76befb6792ee")
 		)
@@ -8423,6 +8801,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/4ekMqRc"
+			(at 50.8 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 50.8 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "EEE-FT1V220AR"
 			(at 50.8 161.29 0)
 			(effects
 				(font
@@ -8592,6 +8988,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Panjit"
+			(at 209.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" " 1N4148W_R2_00001"
+			(at 209.55 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ba77aeb1-b755-4737-9332-d36558ae053d")
 		)
@@ -8662,6 +9076,24 @@
 			)
 		)
 		(property "URL" ""
+			(at 30.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 30.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 30.48 100.33 0)
 			(effects
 				(font
@@ -8810,6 +9242,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 270.51 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CD40106BM96G4"
+			(at 270.51 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a764f478-f21d-4414-ae22-8a3fa0f19323")
 		)
@@ -8922,6 +9372,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 146.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-0768KL"
+			(at 146.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e17a7907-ae28-4a7d-9e79-def1ede6e1ca")
 		)
@@ -8990,6 +9458,24 @@
 			)
 		)
 		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F 3.5mm Mono Phone Jack"
 			(at 199.39 91.44 0)
 			(effects
 				(font
@@ -9080,6 +9566,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RV9312NO-OS15A00-B100K-060"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "24462839-b7b5-4bd2-8d64-95095e9e2784")
 		)
@@ -9153,6 +9657,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/4ekMsbM"
+			(at 130.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 130.81 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CC0603JRX7R9BB104"
 			(at 130.81 163.83 0)
 			(effects
 				(font
@@ -9298,6 +9820,24 @@
 			)
 		)
 		(property "URL" "https://www.taydaelectronics.com/push-button-switch-dc-30v-0-1a-dpdt-7x7mm.html"
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DAIER"
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" " PB-22E27-ROHS"
 			(at 246.38 100.33 0)
 			(effects
 				(font
@@ -9463,6 +10003,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 86.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f632b66-ca5a-40e6-8dd9-eb96e4806a1d")
 		)
@@ -9528,6 +10086,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3XFl5np"
+			(at 231.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 231.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CR0603-FX-2003ELF"
 			(at 231.14 139.7 0)
 			(effects
 				(font
@@ -9671,6 +10247,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/47m5xIo"
+			(at 270.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 270.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CD40106BM96G4"
 			(at 270.51 80.01 0)
 			(effects
 				(font
@@ -9849,6 +10443,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3MINYsI"
+			(at 195.58 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 195.58 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "AC0603FR-0710KL"
 			(at 195.58 123.19 0)
 			(effects
 				(font
@@ -10067,6 +10679,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 105.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CC0603JRX7R9BB104"
+			(at 105.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c97d7bd5-b02f-4477-8839-a3f3d134840c")
 		)
@@ -10277,6 +10907,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "DAIER"
+			(at 93.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" " PB-22E27-ROHS"
+			(at 93.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b79f069b-8e86-4e80-89ee-8deb7f5966a2")
 		)
@@ -10358,6 +11006,24 @@
 			)
 		)
 		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 24.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 24.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F 3.5mm Mono Phone Jack"
 			(at 24.13 83.82 0)
 			(effects
 				(font
@@ -10511,6 +11177,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "TAIYO YUDEN"
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "UMK107AB7105KA-T"
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b0ad09d4-c343-49e4-8c10-8f45f449018b")
 		)
@@ -10580,6 +11264,24 @@
 			)
 		)
 		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 58.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 58.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F 3.5mm Mono Phone Jack"
 			(at 58.42 25.4 0)
 			(effects
 				(font
@@ -10734,6 +11436,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 195.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TL074ACDT"
+			(at 195.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff1bff89-2775-4713-8fc8-eea509a56c0d")
 		)
@@ -10840,6 +11560,24 @@
 			)
 		)
 		(property "URL" ""
+			(at 66.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 66.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
 			(at 66.04 20.32 0)
 			(effects
 				(font
@@ -11123,6 +11861,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TL074ACDT"
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13713a50-c0ae-498d-9d53-b794e7e67dc8")
 		)
@@ -11235,6 +11991,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 81.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL"
+			(at 81.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "111b10d8-5fad-4f13-b5b6-79f2d6095131")
 		)
@@ -11303,6 +12077,24 @@
 			)
 		)
 		(property "URL" "https://www.taydaelectronics.com/100k-ohm-linear-taper-potentiometer-round-knurled-plastic-shaft-pcb-9mm.html"
+			(at 95.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ALPHA"
+			(at 95.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RV09AF-40-20K-B100K"
 			(at 95.25 115.57 0)
 			(effects
 				(font
@@ -11382,6 +12174,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/47m5xIo"
+			(at 270.51 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 270.51 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CD40106BM96G4"
 			(at 270.51 35.56 0)
 			(effects
 				(font
@@ -11504,6 +12314,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 77.47 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CD40106BM96G4"
+			(at 77.47 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dda4453b-8c08-415b-a350-68c429365adb")
 		)
@@ -11616,6 +12444,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 247.65 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-07100KL"
+			(at 247.65 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "079b714f-57b5-4662-932e-9bb176023681")
 		)
@@ -11684,6 +12530,24 @@
 			)
 		)
 		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 233.68 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 233.68 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F 3.5mm Mono Phone Jack"
 			(at 233.68 57.15 0)
 			(effects
 				(font
@@ -11790,6 +12654,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Panjit"
+			(at 129.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" " 1N4148W_R2_00001"
+			(at 129.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "de8d6700-f6a6-4271-b4b7-8931526dbb25")
 		)
@@ -11866,6 +12748,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "TAIYO YUDEN"
+			(at 162.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "UMK107AB7105KA-T"
+			(at 162.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b532aee5-9674-429e-b61f-da5d9bdbee48")
 		)
@@ -11934,6 +12834,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3MINYsI"
+			(at 237.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 237.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "AC0603FR-0710KL"
 			(at 237.49 149.86 0)
 			(effects
 				(font
@@ -12085,6 +13003,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 31.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 31.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cd7015a-eb14-4c2a-9e45-1a5e71a84987")
 		)
@@ -12227,6 +13163,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "ALPHA"
+			(at 26.67 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RV09AF-40-20K-B100K"
+			(at 26.67 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f1555b3d-dada-4721-b876-a505545b43f4")
 		)
@@ -12306,6 +13260,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 273.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F 3.5mm Mono Phone Jack"
+			(at 273.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TN"
 			(uuid "74cf4697-bc9c-4c85-857e-af0f3f4c179a")
 		)
@@ -12377,6 +13349,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3z5b9KJ"
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-0720KL"
 			(at 109.22 115.57 0)
 			(effects
 				(font
@@ -12595,6 +13585,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 50.8 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "EEE-FT1V220AR"
+			(at 50.8 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fa5d9d4c-dd6a-412c-96ab-c774c5435156")
 		)
@@ -12665,6 +13673,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/4ekMsbM"
+			(at 68.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 68.58 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CC0603JRX7R9BB104"
 			(at 68.58 170.18 0)
 			(effects
 				(font
@@ -12746,6 +13772,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3B2EAO3"
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "BC848ALT1G"
 			(at 102.87 59.69 0)
 			(effects
 				(font
@@ -12968,6 +14012,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 173.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 173.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97ef81d3-56b6-479b-ab67-f9eb0342fc73")
 		)
@@ -13033,6 +14095,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/4el3qXS"
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-07100KL"
 			(at 109.22 96.52 0)
 			(effects
 				(font
@@ -13317,6 +14397,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TL074ACDT"
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "323077b8-f4c7-4e6c-ae1e-a25a9d00b0aa")
 		)
@@ -13497,6 +14595,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 105.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CC0603JRX7R9BB104"
+			(at 105.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c59d2295-be51-41ef-9627-0e99854c3b73")
 		)
@@ -13566,6 +14682,24 @@
 			)
 		)
 		(property "URL" "https://www.taydaelectronics.com/1m-ohm-linear-taper-potentiometer-round-knurled-plastic-shaft-pcb-9mm.html"
+			(at 54.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ALPHA"
+			(at 54.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RV09AF-40-20K-B1M"
 			(at 54.61 104.14 0)
 			(effects
 				(font
@@ -13671,6 +14805,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Panjit"
+			(at 71.12 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" " 1N4148W_R2_00001"
+			(at 71.12 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6809f7f5-3769-40e8-9c5c-580d6f1527a4")
 		)
@@ -13740,6 +14892,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3z6QVAe"
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TL074ACDT"
 			(at 166.37 130.81 0)
 			(effects
 				(font
@@ -13927,6 +15097,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 270.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CD40106BM96G4"
+			(at 270.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91e8e40c-183c-44f6-8b91-4a289822785a")
 		)
@@ -14105,6 +15293,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TL074ACDT"
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88f68eba-aff3-46d6-afa9-da397f33c8df")
 		)
@@ -14212,6 +15418,24 @@
 			)
 		)
 		(property "URL" "https://www.taydaelectronics.com/1k-ohm-trimmer-potentiometer-cermet-25-turns-3296w.html"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ALPHA"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "3296W-1-102LF"
 			(at 77.47 82.55 0)
 			(effects
 				(font
@@ -14563,6 +15787,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CC0603JRX7R9BB104"
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6ffce2f-8a2c-4099-aed6-838e885e7a2c")
 		)
@@ -14634,6 +15876,24 @@
 			)
 		)
 		(property "URL" ""
+			(at 27.94 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connectivity"
+			(at 27.94 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "X9555WV-2X05-6TV01"
 			(at 27.94 168.91 0)
 			(effects
 				(font
@@ -15008,6 +16268,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 78.74 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F 3.5mm Mono Phone Jack"
+			(at 78.74 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "TN"
 			(uuid "758d31d0-cc08-4ca2-aa0b-11dece99d55d")
 		)
@@ -15145,6 +16423,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3MINYsI"
+			(at 115.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 115.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "AC0603FR-0710KL"
 			(at 115.57 123.19 0)
 			(effects
 				(font
@@ -15295,6 +16591,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 260.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-071KL"
+			(at 260.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d967c617-b33f-44ce-ae98-373f331a1288")
 		)
@@ -15364,6 +16678,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3z6QVAe"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TL074ACDT"
 			(at 200.66 57.15 0)
 			(effects
 				(font
@@ -15620,6 +16952,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 120.65 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TL074ACDT"
+			(at 120.65 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a2e27d5-f68d-4012-af6a-17c6dbf8dd28")
 		)
@@ -15866,6 +17216,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 219.71 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-0720KL"
+			(at 219.71 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56ade478-0582-4472-8940-7909fe6b4f71")
 		)
@@ -15944,6 +17312,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 105.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" ""
+			(at 105.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8aaf7aea-ee3e-487d-be1d-3ec39f036fe0")
 		)
@@ -16009,6 +17395,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/47m5xIo"
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CD40106BM96G4"
 			(at 270.51 50.8 0)
 			(effects
 				(font
@@ -16129,6 +17533,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 181.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "AC0603FR-0710KL"
+			(at 181.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b5ea653-ebaf-4a7f-b5ca-4366c132cf2e")
 		)
@@ -16198,6 +17620,24 @@
 			)
 		)
 		(property "URL" "https://www.taydaelectronics.com/tayda-100k-ohm-linear-taper-potentiometer-round-shaft-pcb-9mm-6-35-mm.html"
+			(at 27.94 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 27.94 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RV9312NO-OS15A00-B100K-060"
 			(at 27.94 44.45 0)
 			(effects
 				(font
@@ -16278,6 +17718,24 @@
 			)
 		)
 		(property "URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+			(at 24.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayda Electronics"
+			(at 24.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "PJ-3001F 3.5mm Mono Phone Jack"
 			(at 24.13 104.14 0)
 			(effects
 				(font
@@ -16450,6 +17908,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Panjit"
+			(at 210.82 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" " 1N4148W_R2_00001"
+			(at 210.82 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "118f1f08-bf42-41aa-9f55-c8577bc8b4eb")
 		)
@@ -16525,6 +18001,24 @@
 			)
 		)
 		(property "URL" "https://mou.sr/3ZkYkq0"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "BC858CLT3G"
 			(at 88.9 66.04 0)
 			(effects
 				(font
