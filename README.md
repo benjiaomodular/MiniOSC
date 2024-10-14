@@ -7,7 +7,7 @@
 **Version 2.1**
 
 ![](docs/MiniOSC%20v2.1%20-%20Schematics.png)
-More info on my website: 
+More info on my website: https://benjiaomodular.com/post/2024-09-20-miniosc-v2/
 
 ## PCBs
 This project was sponsored by PCBWay. You can order the boards from them directly!
