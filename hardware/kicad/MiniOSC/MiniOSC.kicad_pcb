@@ -15415,7 +15415,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "680pF"
+		(property "Value" "2.2nF"
 			(at 3.6375 0 90)
 			(layer "B.Fab")
 			(uuid "83af0574-2d16-4664-914d-0fd2065c03fa")
@@ -15469,7 +15469,7 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" "https://mou.sr/4goVMgC"
+		(property "URL" "https://mou.sr/3zee3wG"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")

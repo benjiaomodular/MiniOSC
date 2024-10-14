@@ -7711,7 +7711,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680pF"
+		(property "Value" "2.2nF"
 			(at 122.301 59.563 0)
 			(effects
 				(font
@@ -7747,7 +7747,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://mou.sr/4goVMgC"
+		(property "URL" "https://mou.sr/3zee3wG"
 			(at 119.38 58.42 0)
 			(effects
 				(font

@@ -1,11 +1,10 @@
 # Versions
-#### v2.1 - Fixed initial mistakes (For verification)
+#### v2.1 - Fixed initial mistakes
 - Resolved Pulse Width and PWM CV pot positions
 - Fixed panel hole size for Sync Enable button
 - Updated trimpot footprint from 3266Y to 3296w
 - Updated value of R21 to 20k to lower amplitude of triangle output a little bit.
 - Updated value of R14 to 68k to lower amplitude of saw output a little bit.
-- Changed C8 from 2.2nF to 680pF. Moved the range for pitch a little bit higher.
 - Switched filter caps C9 and C10 footprints to smaller 4mm size. Old ones were unnecessarily too big.
 
 #### v2.0 - Moved to SMD

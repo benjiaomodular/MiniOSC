@@ -9,6 +9,13 @@
 ![](docs/MiniOSC%20v2.1%20-%20Schematics.png)
 More info on my website: 
 
+## PCBs
+This project was sponsored by PCBWay. You can order the boards from them directly!
+1. [MiniOSC v2.1 - Front panel](https://www.pcbway.com/project/shareproject/_1_of_2_MiniOSC_v2_1_Front_Panel_4b8c5ae8.html) 
+2. [MiniOSC v2.1 - Main board](https://www.pcbway.com/project/shareproject/_2_of_2_MiniOSC_v2_1_Main_Board_2ed4e925.html)
+
+You can also download my files from https://github.com/benjiaomodular/MiniOSC/blob/main/fabrication/
+
 ## Old versions
 
 **Version 1.1**
