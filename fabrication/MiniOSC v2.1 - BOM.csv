@@ -2,7 +2,7 @@
 1,"","","C3, C4, C5, C6, C7","100nF","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","https://mou.sr/4ekMsbM","YAGEO","CC0603JRX7R9BB104",5
 2,"","","C1, C2","1uF","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","https://mou.sr/3XEhBl3","TAIYO YUDEN","UMK107AB7105KA-T",2
 3,"","","C9, C10","22uF","CP_Elec_4x5.8","https://mou.sr/4ekMqRc","Panasonic","EEE-FT1V220AR",2
-4,"","","C8","680pF","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","https://mou.sr/4goVMgC","Vishay / Vitramon","VJ0603Y681KXAAC",1
+4,"","","C8","2.2nF","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","https://mou.sr/3zee3wG","Vishay / Vitramon","VJ0603Y681KXAAC",1
 5,"","","R1, R2, R4, R7, R10, R11, R16, R22","100k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://mou.sr/4el3qXS","YAGEO","RC0603FR-07100KL",8
 6,"","","R12, R17, R19, R23","1k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://mou.sr/3MKtPCB","YAGEO","RC0603FR-071KL",4
 7,"","","R9, R13, R15","10k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://mou.sr/3MINYsI","YAGEO","AC0603FR-0710KL",3
