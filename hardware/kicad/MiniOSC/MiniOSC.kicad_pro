@@ -585,16 +585,16 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Part #",
           "name": "Part #",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

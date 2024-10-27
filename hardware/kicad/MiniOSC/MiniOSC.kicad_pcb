@@ -23230,7 +23230,7 @@
 				(justify mirror)
 			)
 		)
-		(property "URL" "https://mou.sr/3MINYsI"
+		(property "URL" "https://mou.sr/3z5b9KJ"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23258,7 +23258,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Part #" "AC0603FR-0710KL"
+		(property "Part #" "RC0603FR-0720KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")

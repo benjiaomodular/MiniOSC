@@ -1,33 +1,32 @@
-"null","Sourced","Placed","References","Value","Footprint","URL","Manufacturer","Part #","Quantity"
-1,"","","C3, C4, C5, C6, C7","100nF","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","https://mou.sr/4ekMsbM","YAGEO","CC0603JRX7R9BB104",5
-2,"","","C1, C2","1uF","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","https://mou.sr/3XEhBl3","TAIYO YUDEN","UMK107AB7105KA-T",2
-3,"","","C9, C10","22uF","CP_Elec_4x5.8","https://mou.sr/4ekMqRc","Panasonic","EEE-FT1V220AR",2
-4,"","","C8","2.2nF","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","https://mou.sr/3zee3wG","Vishay / Vitramon","VJ0603Y681KXAAC",1
-5,"","","R1, R2, R4, R7, R10, R11, R16, R22","100k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://mou.sr/4el3qXS","YAGEO","RC0603FR-07100KL",8
-6,"","","R12, R17, R19, R23","1k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://mou.sr/3MKtPCB","YAGEO","RC0603FR-071KL",4
-7,"","","R9, R13, R15","10k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://mou.sr/3MINYsI","YAGEO","AC0603FR-0710KL",3
-8,"","","R3, R6","1M","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://mou.sr/3Znalvs","YAGEO","RC0603FR-071ML",2
-9,"","","R8, R18","20k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://mou.sr/3z5b9KJ","YAGEO","RC0603FR-0720KL",2
-10,"","","R14, R24","68k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://mou.sr/3ToI2ZD","YAGEO","RC0603FR-0768KL",2
-11,"","","R5","1K5","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://mou.sr/3zoxpz1","YAGEO"," RC0603FR-071K5L",1
-12,"","","R20","200k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://mou.sr/3XFl5np","Bourns","CR0603-FX-2003ELF",1
-13,"","","R21","20k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","https://mou.sr/3MINYsI","YAGEO","AC0603FR-0710KL",1
-14,"","","D1, D2, D3, D4","1N4148W","D_SOD-123","https://mou.sr/3XEhTbD","Panjit"," 1N4148W_R2_00001",4
-15,"","","U2, U3","TL074","SOIC-14_3.9x8.7mm_P1.27mm","https://mou.sr/3z6QVAe","STMicroelectronics","TL074ACDT",2
-16,"","","U1",40106,"SOIC-14_3.9x8.7mm_P1.27mm","https://mou.sr/47m5xIo","Texas Instruments","CD40106BM96G4",1
-17,"","","SW1","SW_DPDT_x2","Button_KFC7x7","https://www.taydaelectronics.com/push-button-switch-dc-30v-0-1a-dpdt-7x7mm.html","DAIER"," PB-22E27-ROHS",1
-18,"","","TH1, TH2, TH3, TH4","10K NTC","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","https://mou.sr/4el3hDO","Vishay / BC Components","NTCS0603E3103JLT",4
-19,"","","PULSE_WIDTH1, TUNING_COARSE1","B100k","Potentiometer_RV09","https://www.taydaelectronics.com/tayda-100k-ohm-linear-taper-potentiometer-round-shaft-pcb-9mm-6-35-mm.html","Tayda Electronics","RV9312NO-OS15A00-B100K-060",2
-20,"","","PWM_AMT1, TUNING_FINE1","B100k","Potentiometer_RV09","https://www.taydaelectronics.com/100k-ohm-linear-taper-potentiometer-round-knurled-plastic-shaft-pcb-9mm.html","ALPHA","RV09AF-40-20K-B100K",2
-21,"","","FM_AMT1","BIM","Potentiometer_RV09","https://www.taydaelectronics.com/1m-ohm-linear-taper-potentiometer-round-knurled-plastic-shaft-pcb-9mm.html","ALPHA","RV09AF-40-20K-B1M",1
-22,"","","Q3","BC848","SOT-23","https://mou.sr/3B2EAO3","onsemi","BC848ALT1G",1
-23,"","","Q4","BC858","SOT-23","https://mou.sr/3ZkYkq0","onsemi","BC858CLT3G",1
-24,"","","SCALE1","B1k","Potentiometer_Bourns_3296W_Vertical","https://www.taydaelectronics.com/1k-ohm-trimmer-potentiometer-cermet-25-turns-3296w.html","ALPHA","3296W-1-102LF",1
-25,"","","J1","SYNC_IN","AudioJack_3.5mm","https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html","Tayda Electronics","PJ-3001F 3.5mm Mono Phone Jack",1
-26,"","","J2","Conn_01x10_Pin","Header_IDC2x05_NoArrow","","XKB Connectivity","X9555WV-2X05-6TV01",1
-27,"","","J9","VOCT_IN","AudioJack_3.5mm","https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html","Tayda Electronics","PJ-3001F 3.5mm Mono Phone Jack",1
-28,"","","J10","FM_IN","AudioJack_3.5mm","https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html","Tayda Electronics","PJ-3001F 3.5mm Mono Phone Jack",1
-29,"","","J11","PWM_CV","AudioJack_3.5mm","https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html","Tayda Electronics","PJ-3001F 3.5mm Mono Phone Jack",1
-30,"","","J12","TRI_OUT","AudioJack_3.5mm","https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html","Tayda Electronics","PJ-3001F 3.5mm Mono Phone Jack",1
-31,"","","J13","SAW_OUT","AudioJack_3.5mm","https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html","Tayda Electronics","PJ-3001F 3.5mm Mono Phone Jack",1
-32,"","","J14","PULSE_OUT","AudioJack_3.5mm","https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html","Tayda Electronics","PJ-3001F 3.5mm Mono Phone Jack",1
+null,Placed,References,Value,Footprint,URL,Manufacturer,Part #,Quantity
+1,✓,"C3, C4, C5, C6, C7",100nF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,https://mou.sr/4ekMsbM,YAGEO,CC0603JRX7R9BB104,5
+2,✓,"C1, C2",1uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,https://mou.sr/3XEhBl3,TAIYO YUDEN,UMK107AB7105KA-T,2
+3,✓,"C9, C10",22uF,CP_Elec_4x5.8,https://mou.sr/4ekMqRc,Panasonic,EEE-FT1V220AR,2
+4,✓,C8,2.2nF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,https://mou.sr/3zee3wG,Vishay / Vitramon,VJ0603Y681KXAAC,1
+5,✓,"R1, R2, R4, R7, R10, R11, R16, R22",100k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,https://mou.sr/4el3qXS,YAGEO,RC0603FR-07100KL,8
+6,✓,"R12, R17, R19, R23",1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,https://mou.sr/3MKtPCB,YAGEO,RC0603FR-071KL,4
+7,✓,"R8, R18, R21",20k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,https://mou.sr/3z5b9KJ,YAGEO,RC0603FR-0720KL,3
+8,✓,"R9, R13, R15",10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,https://mou.sr/3MINYsI,YAGEO,AC0603FR-0710KL,3
+9,✓,"R3, R6",1M,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,https://mou.sr/3Znalvs,YAGEO,RC0603FR-071ML,2
+10,✓,"R14, R24",68k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,https://mou.sr/3ToI2ZD,YAGEO,RC0603FR-0768KL,2
+11,✓,R5,1K5,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,https://mou.sr/3zoxpz1,YAGEO, RC0603FR-071K5L,1
+12,✓,R20,200k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,https://mou.sr/3XFl5np,Bourns,CR0603-FX-2003ELF,1
+13,✓,"D1, D2, D3, D4",1N4148W,D_SOD-123,https://mou.sr/3XEhTbD,Panjit, 1N4148W_R2_00001,4
+14,✓,"U2, U3",TL074,SOIC-14_3.9x8.7mm_P1.27mm,https://mou.sr/3z6QVAe,STMicroelectronics,TL074ACDT,2
+15,✓,U1,40106,SOIC-14_3.9x8.7mm_P1.27mm,https://mou.sr/47m5xIo,Texas Instruments,CD40106BM96G4,1
+16,,SW1,SW_DPDT_x2,Button_KFC7x7,https://www.taydaelectronics.com/push-button-switch-dc-30v-0-1a-dpdt-7x7mm.html,DAIER, PB-22E27-ROHS,1
+17,✓,"TH1, TH2, TH3, TH4",10K NTC,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,https://mou.sr/4el3hDO,Vishay / BC Components,NTCS0603E3103JLT,4
+18,✓,"PULSE_WIDTH1, TUNING_COARSE1",B100k,Potentiometer_RV09,https://www.taydaelectronics.com/tayda-100k-ohm-linear-taper-potentiometer-round-shaft-pcb-9mm-6-35-mm.html,Tayda Electronics,RV9312NO-OS15A00-B100K-060,2
+19,,"PWM_AMT1, TUNING_FINE1",B100k,Potentiometer_RV09,https://www.taydaelectronics.com/100k-ohm-linear-taper-potentiometer-round-knurled-plastic-shaft-pcb-9mm.html,ALPHA,RV09AF-40-20K-B100K,2
+20,,FM_AMT1,B1M,Potentiometer_RV09,https://www.taydaelectronics.com/1m-ohm-linear-taper-potentiometer-round-knurled-plastic-shaft-pcb-9mm.html,ALPHA,RV09AF-40-20K-B1M,1
+21,✓,Q3,BC848,SOT-23,https://mou.sr/3B2EAO3,onsemi,BC848ALT1G,1
+22,✓,Q4,BC858,SOT-23,https://mou.sr/3ZkYkq0,onsemi,BC858CLT3G,1
+23,✓,SCALE1,B1k,Potentiometer_Bourns_3296W_Vertical,https://www.taydaelectronics.com/1k-ohm-trimmer-potentiometer-cermet-25-turns-3296w.html,ALPHA,3296W-1-102LF,1
+24,,J1,SYNC_IN,AudioJack_3.5mm,https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html,Tayda Electronics,PJ-3001F 3.5mm Mono Phone Jack,1
+25,✓,J2,Conn_01x10_Pin,Header_IDC2x05_NoArrow,,XKB Connectivity,X9555WV-2X05-6TV01,1
+26,,J9,VOCT_IN,AudioJack_3.5mm,https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html,Tayda Electronics,PJ-3001F 3.5mm Mono Phone Jack,1
+27,,J10,FM_IN,AudioJack_3.5mm,https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html,Tayda Electronics,PJ-3001F 3.5mm Mono Phone Jack,1
+28,,J11,PWM_CV,AudioJack_3.5mm,https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html,Tayda Electronics,PJ-3001F 3.5mm Mono Phone Jack,1
+29,,J12,TRI_OUT,AudioJack_3.5mm,https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html,Tayda Electronics,PJ-3001F 3.5mm Mono Phone Jack,1
+30,,J13,SAW_OUT,AudioJack_3.5mm,https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html,Tayda Electronics,PJ-3001F 3.5mm Mono Phone Jack,1
+31,,J14,PULSE_OUT,AudioJack_3.5mm,https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html,Tayda Electronics,PJ-3001F 3.5mm Mono Phone Jack,1
