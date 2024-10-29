@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiniOSC")
-		(rev "2.1.1")
+		(rev "2.1")
 		(company "benjiaomodular")
 	)
 	(lib_symbols
@@ -3120,7 +3120,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:BC549"
+		(symbol "Transistor_BJT:BC848"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -3135,7 +3135,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC549"
+			(property "Value" "BC848"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -3144,7 +3144,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -3155,7 +3155,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3165,7 +3165,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
+			(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3174,7 +3174,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "ki_keywords" "NPN Small Signal Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3183,7 +3183,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3192,19 +3192,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC549_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "BC848_0_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -3265,28 +3253,10 @@
 					)
 				)
 			)
-			(symbol "BC549_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "BC848_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.08)
+					(length 5.715)
 					(name "B"
 						(effects
 							(font
@@ -3294,7 +3264,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3312,6 +3282,24 @@
 							)
 						)
 					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "3"
 						(effects
 							(font
@@ -3322,7 +3310,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:BC559"
+		(symbol "Transistor_BJT:BC858"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -3337,7 +3325,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC559"
+			(property "Value" "BC858"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -3346,7 +3334,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -3357,7 +3345,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3367,7 +3355,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1A Ic, 30V Vce, PNP Small Signal Transistor, TO-92"
+			(property "Description" "0.1A Ic, 30V Vce, PNP Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3376,7 +3364,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "PNP Transistor"
+			(property "ki_keywords" "PNP transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3385,7 +3373,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3394,7 +3382,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC559_0_1"
+			(symbol "BC858_0_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -3455,11 +3443,11 @@
 					)
 				)
 			)
-			(symbol "BC559_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
+			(symbol "BC858_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3474,10 +3462,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3493,9 +3481,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "E"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7036,7 +7024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 44.45 104.14 0)
 			(effects
 				(font
@@ -7063,7 +7051,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://mou.sr/3UrqQmM"
+		(property "URL" "https://mou.sr/4el3hDO"
 			(at 44.45 104.14 0)
 			(effects
 				(font
@@ -7072,7 +7060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay / BC Components"
 			(at 44.45 104.14 0)
 			(effects
 				(font
@@ -7081,7 +7069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "NTCS0603E3103JLT"
 			(at 44.45 104.14 0)
 			(effects
 				(font
@@ -7130,7 +7118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 52.07 83.82 0)
 			(effects
 				(font
@@ -7157,7 +7145,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://mou.sr/3UrqQmM"
+		(property "URL" "https://mou.sr/4el3hDO"
 			(at 52.07 83.82 0)
 			(effects
 				(font
@@ -7166,7 +7154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay / BC Components"
 			(at 52.07 83.82 0)
 			(effects
 				(font
@@ -7175,7 +7163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "NTCS0603E3103JLT"
 			(at 52.07 83.82 0)
 			(effects
 				(font
@@ -7224,7 +7212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 52.07 66.04 0)
 			(effects
 				(font
@@ -7251,7 +7239,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://mou.sr/3UrqQmM"
+		(property "URL" "https://mou.sr/4el3hDO"
 			(at 52.07 66.04 0)
 			(effects
 				(font
@@ -7260,7 +7248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay / BC Components"
 			(at 52.07 66.04 0)
 			(effects
 				(font
@@ -7269,7 +7257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "NTCS0603E3103JLT"
 			(at 52.07 66.04 0)
 			(effects
 				(font
@@ -7318,7 +7306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 52.07 44.45 0)
 			(effects
 				(font
@@ -7345,7 +7333,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://mou.sr/3UrqQmM"
+		(property "URL" "https://mou.sr/4el3hDO"
 			(at 52.07 44.45 0)
 			(effects
 				(font
@@ -7354,7 +7342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay / BC Components"
 			(at 52.07 44.45 0)
 			(effects
 				(font
@@ -7363,7 +7351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "NTCS0603E3103JLT"
 			(at 52.07 44.45 0)
 			(effects
 				(font
@@ -11943,82 +11931,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC559")
-		(at 88.9 66.04 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "649d59b1-69b6-4d52-9a99-127126e3b85c")
-		(property "Reference" "Q2"
-			(at 93.98 67.3101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC559"
-			(at 93.98 64.7701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 93.98 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
-			(at 88.9 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 30V Vce, PNP Small Signal Transistor, TO-92"
-			(at 88.9 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "93f21fe8-e9e4-46c2-9ea7-b007be0d9425")
-		)
-		(pin "3"
-			(uuid "fec3d187-1eb4-4554-9624-48e7e2b555d5")
-		)
-		(pin "1"
-			(uuid "198aaf51-d7b4-4f4e-9ffc-5bc9e44dd90e")
-		)
-		(instances
-			(project ""
-				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 81.28 25.4 270)
 		(unit 1)
@@ -13803,6 +13715,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC848")
+		(at 102.87 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98bc0453-a200-46f5-b3e0-1cab53f6fbc2")
+		(property "Reference" "Q3"
+			(at 107.95 60.9601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC848"
+			(at 107.95 58.4201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 107.95 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 30V Vce, NPN Transistor, SOT-23"
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/3B2EAO3"
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "BC848ALT1G"
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db5d4948-1c9a-4f8e-914a-8ff1e26b9ad0")
+		)
+		(pin "2"
+			(uuid "356b7e1f-b33e-4f63-a41a-4ada33c9b155")
+		)
+		(pin "3"
+			(uuid "44dfcd30-8325-45cc-b191-4bbaae42d171")
+		)
+		(instances
+			(project ""
+				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 237.49 154.94 0)
 		(unit 1)
@@ -14023,82 +14037,6 @@
 			(project "MiniOSC"
 				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC549")
-		(at 102.87 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e6b80b8-a757-477d-9fda-d9d8ed15be68")
-		(property "Reference" "Q1"
-			(at 107.95 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC549"
-			(at 107.95 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 107.95 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 102.87 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
-			(at 102.87 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8ac3227-56ed-4480-928e-ac9a60288ece")
-		)
-		(pin "2"
-			(uuid "6dbe3d7c-1572-41ce-997a-8b45c9401160")
-		)
-		(pin "3"
-			(uuid "adafd4b6-12d6-417d-a1bd-768ff63c90fc")
-		)
-		(instances
-			(project ""
-				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -17998,6 +17936,110 @@
 			(project ""
 				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC858")
+		(at 88.9 66.04 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff3214dd-2b54-4057-8902-fc37c381b630")
+		(property "Reference" "Q4"
+			(at 93.98 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC858"
+			(at 93.98 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 93.98 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 30V Vce, PNP Transistor, SOT-23"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://mou.sr/3ZkYkq0"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "BC858CLT3G"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ef3d822-9eb7-49a8-b46b-0f329be18f91")
+		)
+		(pin "3"
+			(uuid "2f09aca3-4adc-4bef-b03c-9adeecce8680")
+		)
+		(pin "2"
+			(uuid "e9077157-a327-4884-bd41-bb2623a1783e")
+		)
+		(instances
+			(project ""
+				(path "/995d0ac4-fdc3-404c-a472-c60e34c20729"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
